@@ -33,9 +33,9 @@ Thumbs.db
 *.class
 
 # front project
-pslb-front/dist/
-pslb-front/node_modules/
-pslb-front/.idea
-pslb-front/*.iws
-pslb-front/*.iml
-pslb-front/*.ipr
+slb-front/dist/
+slb-front/node_modules/
+slb-front/.idea
+slb-front/*.iws
+slb-front/*.iml
+slb-front/*.ipr

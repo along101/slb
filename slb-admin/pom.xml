@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <artifactId>pslb</artifactId>
-        <groupId>com.along101.pslb</groupId>
+        <artifactId>slb</artifactId>
+        <groupId>com.along101.slb</groupId>
         <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>pslb-admin</artifactId>
+    <artifactId>slb-admin</artifactId>
 
 
     <properties>

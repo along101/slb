@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class EnvProperty {
 
-    @Value("${pslb.jwtcheck.enable}")
+    @Value("${slb.jwtcheck.enable}")
     public Boolean JWT_CHECK_ENABLE;
 
     @Autowired

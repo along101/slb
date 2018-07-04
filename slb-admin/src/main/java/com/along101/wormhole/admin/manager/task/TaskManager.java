@@ -55,7 +55,7 @@ public class TaskManager {
 
     @Setter
     @Getter
-    @Value("${pslb.task.overtime}")
+    @Value("${slb.task.overtime}")
     private int overtime = 15;
     @Autowired
     private TaskRepository taskRepository;

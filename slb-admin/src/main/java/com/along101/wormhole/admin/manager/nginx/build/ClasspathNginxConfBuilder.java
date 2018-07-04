@@ -22,7 +22,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Created by yinzuolong on 2017/7/11.
  */
 @Component
-@ConditionalOnProperty(name = "pslb.nginx.template.resource", havingValue = "class")
+@ConditionalOnProperty(name = "slb.nginx.template.resource", havingValue = "class")
 public class ClasspathNginxConfBuilder implements NginxConfBuilder {
 
     private VelocityEngine ve;
