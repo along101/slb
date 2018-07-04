@@ -1,0 +1,7 @@
+#foreach($upstream in $config.upstreams)
+upstream  $upstream.name {
+#foreach($upstreamServer in $upstream.servers)
+    #parse("template/nginx/upstreamServer.vm")
+#end
+}
+#end

@@ -1,0 +1,19 @@
+#set( $D = '$' )
+server {
+    listen $config.server.listen;
+    server_name $config.server.serverName;
+    ignore_invalid_headers off;
+    proxy_http_version 1.1;
+#foreach($location in $config.server.locations)
+    location $location.pattern {
+        set ${D}$location.upstream $location.upstream;
+        proxy_pass http://${D}$location.upstream;
+        proxy_intercept_errors on;
+        error_page 301 302 307 = @handle_redirects;
+    }
+#end
+    location @handle_redirects {
+        set ${D}saved_redirect_location '${D}upstream_http_location';
+        proxy_pass ${D}saved_redirect_location;
+    }
+}

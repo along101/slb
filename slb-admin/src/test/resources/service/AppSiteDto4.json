@@ -1,0 +1,92 @@
+[
+  {
+    "slbId": "1",
+    "appId": "200000001",
+    "name": "test1",
+    "note": "test1",
+    "status": "1",
+    "domain": "test.along101.com",
+    "port": "80",
+    "path": "/test1",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "name": "10.0.0.11",
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 0,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "name": "10.0.0.12",
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000002",
+    "name": "test2",
+    "note": "test2",
+    "status": "1",
+    "domain": "test.along101.com",
+    "port": "80",
+    "path": "/test2",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "name": "10.0.1.11",
+        "hostName": "test01",
+        "ip": "10.0.1.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "name": "10.0.1.12",
+        "hostName": "test02",
+        "ip": "10.0.1.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  }
+]

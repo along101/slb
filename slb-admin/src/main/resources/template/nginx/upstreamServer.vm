@@ -1,0 +1,1 @@
+server $upstreamServer.ip:$upstreamServer.port weight=$upstreamServer.weight max_fails=$upstreamServer.maxFails fail_timeout=$upstreamServer.failTimeout;

@@ -1,0 +1,15 @@
+{
+  "name": "testSlb",
+  "nginxConf": "/opt/app/nginx/conf",
+  "nginxSbin": "/opt/app/nginx/sbin",
+  "slbServers": [
+    {
+      "hostName": "test01",
+      "ip": "10.0.0.11"
+    },
+    {
+      "hostName": "test02",
+      "ip": "10.0.0.12"
+    }
+  ]
+}

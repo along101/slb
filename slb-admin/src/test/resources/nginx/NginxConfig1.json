@@ -1,0 +1,72 @@
+{
+  "server": {
+    "locations": [
+      {
+        "pattern": "/",
+        "upstream": "us_1000001"
+      },
+      {
+        "pattern": "/apollo",
+        "upstream": "us_1000002"
+      }
+    ],
+    "listen": 80,
+    "serverName": "wirelessgate.along101.com"
+  },
+  "upstreams": [
+    {
+      "name": "us_1000001",
+      "lbStrategy": "",
+      "servers": [
+        {
+          "ip": "192.168.0.11",
+          "port": 80,
+          "weight": 50,
+          "maxFails": 3,
+          "failTimeout": 30
+        },
+        {
+          "ip": "192.168.0.12",
+          "port": 80,
+          "weight": 50,
+          "maxFails": 3,
+          "failTimeout": 30
+        },
+        {
+          "ip": "192.168.0.13",
+          "port": 80,
+          "weight": 50,
+          "maxFails": 3,
+          "failTimeout": 30
+        }
+      ]
+    },
+    {
+      "name": "us_1000002",
+      "lbStrategy": "",
+      "servers": [
+        {
+          "ip": "192.168.0.21",
+          "port": 80,
+          "weight": 50,
+          "maxFails": 3,
+          "failTimeout": 30
+        },
+        {
+          "ip": "192.168.0.22",
+          "port": 80,
+          "weight": 50,
+          "maxFails": 3,
+          "failTimeout": 30
+        },
+        {
+          "ip": "192.168.0.23",
+          "port": 80,
+          "weight": 50,
+          "maxFails": 3,
+          "failTimeout": 30
+        }
+      ]
+    }
+  ]
+}

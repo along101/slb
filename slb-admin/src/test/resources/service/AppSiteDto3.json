@@ -1,0 +1,75 @@
+{
+  "slbId": "1",
+  "appId": "100000001",
+  "name": "wirelessgate",
+  "note": "无线网关",
+  "status": "0",
+  "domain": "wirelessgate.along101.com",
+  "port": "80",
+  "path": "/",
+  "group": "基础框架",
+  "loadbalance": "",
+  "healthUri": "/health_check",
+  "appSiteServers": [
+    {
+      "name": "10.0.2.11",
+      "hostName": "test01",
+      "ip": "10.0.2.11",
+      "port": 80,
+      "weight": 100,
+      "maxFails": 3,
+      "failTimeout": 100,
+      "tag": "A",
+      "statusDetail": {
+        "ops_manual": 1,
+        "ops_pull": 1,
+        "ops_health_check": 1
+      }
+    },
+    {
+      "name": "10.0.2.12",
+      "hostName": "test02",
+      "ip": "10.0.2.12",
+      "port": 80,
+      "weight": 100,
+      "maxFails": 3,
+      "failTimeout": 100,
+      "tag": "A",
+      "statusDetail": {
+        "ops_manual": 1,
+        "ops_pull": 1,
+        "ops_health_check": 1
+      }
+    },
+    {
+      "name": "10.0.2.13",
+      "hostName": "test02",
+      "ip": "10.0.2.13",
+      "port": 80,
+      "weight": 100,
+      "maxFails": 3,
+      "failTimeout": 100,
+      "tag": "A",
+      "statusDetail": {
+        "ops_manual": 1,
+        "ops_pull": 0,
+        "ops_health_check": 1
+      }
+    },
+    {
+      "name": "10.0.2.14",
+      "hostName": "test02",
+      "ip": "10.0.2.14",
+      "port": 80,
+      "weight": 100,
+      "maxFails": 3,
+      "failTimeout": 100,
+      "tag": "A",
+      "statusDetail": {
+        "ops_manual": 1,
+        "ops_pull": 0,
+        "ops_health_check": 1
+      }
+    }
+  ]
+}

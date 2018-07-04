@@ -1,0 +1,13 @@
+upstream backend_authtoken {
+    server 192.168.212.169:8080 weight=50 max_fails=3 fail_timeout=30;
+}
+server {
+    vhost_traffic_status_display;
+    listen 80;
+    server_name  authtoken.along101.com;
+    ignore_invalid_headers off;
+    proxy_http_version 1.1;
+    location / {
+        proxy_pass http://backend_authtoken;
+    }
+}

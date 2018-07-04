@@ -1,0 +1,12 @@
+[
+	{
+		"name": "test",
+		"appSiteId": 1,
+		"statusDetail":{"ops_health_check":1}
+	},
+	{
+		"name": "test1",
+		"appSiteId": 1,
+		"statusDetail":{"ops_health_check":0}
+	}
+]

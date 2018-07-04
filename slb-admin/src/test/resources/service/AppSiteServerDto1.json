@@ -1,0 +1,30 @@
+[
+  {
+    "hostName": "test01",
+    "ip": "10.0.0.11",
+    "port": 80,
+    "weight": 100,
+    "maxFails": 3,
+    "failTimeout": 100,
+    "tag": "A",
+    "statusDetail": {
+      "ops_manual": 1,
+      "ops_pull": 1,
+      "ops_health_check": 1
+    }
+  },
+  {
+    "hostName": "test02",
+    "ip": "10.0.0.12",
+    "port": 80,
+    "weight": 100,
+    "maxFails": 3,
+    "failTimeout": 100,
+    "tag": "A",
+    "statusDetail": {
+      "ops_manual": 1,
+      "ops_pull": 1,
+      "ops_health_check": 1
+    }
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "slbId": "1",
+    "appId": "200000001",
+    "name": "test1",
+    "note": "test1",
+    "status": "1",
+    "domain": "test1.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000002",
+    "name": "test2",
+    "note": "test2",
+    "status": "1",
+    "domain": "test2.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000003",
+    "name": "test3",
+    "note": "test3",
+    "status": "1",
+    "domain": "test3.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000004",
+    "name": "test4",
+    "note": "test4",
+    "status": "1",
+    "domain": "test4.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000005",
+    "name": "test5",
+    "note": "test5",
+    "status": "1",
+    "domain": "test5.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000006",
+    "name": "test6",
+    "note": "test6",
+    "status": "1",
+    "domain": "test6.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000007",
+    "name": "test7",
+    "note": "test7",
+    "status": "1",
+    "domain": "test7.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000008",
+    "name": "test8",
+    "note": "test8",
+    "status": "1",
+    "domain": "test8.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000009",
+    "name": "test9",
+    "note": "test9",
+    "status": "1",
+    "domain": "test9.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  },
+  {
+    "slbId": "1",
+    "appId": "200000010",
+    "name": "test10",
+    "note": "test10",
+    "status": "1",
+    "domain": "test10.along101.com",
+    "port": "80",
+    "path": "/",
+    "group": "基础框架",
+    "loadbalance": "",
+    "healthUri": "/health_check",
+    "appSiteServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.0.11",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.0.12",
+        "port": 80,
+        "weight": 100,
+        "maxFails": 3,
+        "failTimeout": 100,
+        "tag": "A",
+        "statusDetail": {
+          "ops_manual": 1,
+          "ops_pull": 1,
+          "ops_health_check": 1
+        }
+      }
+    ]
+  }
+]

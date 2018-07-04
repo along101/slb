@@ -1,0 +1,47 @@
+[
+  {
+    "name": "testSlb1",
+    "nginxConf": "/usr/local/nginx/conf",
+    "nginxSbin": "/usr/local/nginx/sbin",
+    "slbServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.1.11"
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.1.12"
+      }
+    ]
+  },
+  {
+    "name": "testSlb2",
+    "nginxConf": "/usr/local/nginx/conf",
+    "nginxSbin": "/usr/local/nginx/sbin",
+    "slbServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.2.11"
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.2.12"
+      }
+    ]
+  },
+  {
+    "name": "testSlb3",
+    "nginxConf": "/usr/local/nginx/conf",
+    "nginxSbin": "/usr/local/nginx/sbin",
+    "slbServers": [
+      {
+        "hostName": "test01",
+        "ip": "10.0.3.11"
+      },
+      {
+        "hostName": "test02",
+        "ip": "10.0.3.12"
+      }
+    ]
+  }
+]
